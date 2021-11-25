@@ -6,6 +6,10 @@
 
 -----
 
+- [X] **Most powerfull cross compiler (27arch)**.
+- [X] **Kill process by port and check for duplicate instance**.
+
+-----
 
 * [Killing process by port](https://youtu.be/5zkFm_8-sPQ).
 
