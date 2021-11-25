@@ -12,6 +12,7 @@
 -----
 
 * [Killing process by port](https://youtu.be/5zkFm_8-sPQ).
+* [Cross compiler](https://www.youtube.com/watch?v=XHEMEt_OHjU).
 
 -----
 
