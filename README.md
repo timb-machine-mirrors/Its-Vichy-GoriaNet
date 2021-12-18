@@ -6,6 +6,11 @@
 
 -----
 
+- Hi, this project is discontinued (reason of poor code size..) I have finished base of this worm with scranners, C&C and more..
+- This project was made for educational purpose only !
+
+-----
+
 - [X] **Most powerfull cross compiler (27arch)**.
 - [X] **Kill process by port and check for duplicate instance**.
 
@@ -13,6 +18,7 @@
 
 * [Killing process by port](https://youtu.be/5zkFm_8-sPQ).
 * [Cross compiler](https://www.youtube.com/watch?v=XHEMEt_OHjU).
+* [Twitter Thread](https://twitter.com/campuscodi/status/1472187389745455106).
 
 -----
 
