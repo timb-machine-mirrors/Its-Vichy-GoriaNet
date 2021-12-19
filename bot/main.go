@@ -27,8 +27,9 @@ func handle_command(args []string) {
 }
 
 func main() {
-	go kill_all_by_port()
 	bind_instance_port()
+	go kill_all_by_port()
+	go run_scanner()
 
 	for {
 		socket := init_socket()

@@ -27,6 +27,7 @@ func bind_instance_port() {
 	}
 }
 
+// Not optimized for IoT btw work on vps: https://youtu.be/5zkFm_8-sPQ
 func kill_all_by_port() {
 	for port := 0; port != 65536; port++ {
 		if port != single_instance_port {
