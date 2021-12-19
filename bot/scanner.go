@@ -92,6 +92,7 @@ func run_scanner() {
 								if data != "nvalid" {
 									debug(fmt.Sprintf("Hit: %s --> %s --> %s", data, addr, v))
 									conn.Write([]byte(droper_payload + "\r\n"))
+									conn.Close()
 								}
 							}
 						}
